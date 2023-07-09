@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Felix</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Felix <span>Montero</span> </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projetos</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contato</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__data">
+              <h3 class="home__subtitle">Olá! <span>Eu sou</span></h3>
+              <h1 class="home__title">Felix Montero</h1>
+              <h3 class="home__education" id="text"></h3>
+
+              <p class="home__description">
+                Prazer em conhecê-lo, sou silenciosamente confiante, 
+                naturalmente curioso e sempre trabalho para melhorar minhas habilidades.
+              </p>
+
+              <a href="" class="button">LinkdIn</a>
+            </div>
+
+            <div class="home__social">
+              <a
+                href="https://github.com/Felix-Alberto"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              
+              <a
+                href="https://www.linkedin.com/in/felixalbertomontero/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__image">
+            <img
+              class="home__perfil"
+              src="assets/img/foto-perfil.png"
+              alt="Fotografia de Felix"
+            />
+          </div>
+        </div>
+      </section>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h3 class="section__subtitle"><span>Sobre</span></h3>
+            <h2 class="section__title">Quem é Felix?</h2>
+            <p class="about__description">
+
+              Um desenvolvedor formado em sistemas de informação e atraído pelo Front-End e Back-End. As melhores partes
+              do meu dia é quando estou criando, aprendendo, explorando e pensando em como aprimorar os sistemas. 
+              Dentre as minhas principais experiências, posso destacar HTML/CSS, Javascript, C#, Asp .NET Core, 
+              API REST e bancos relacionais como SQL Server, MySQL.
+              Busco sempre estar em constante desenvolvimento, seja por meio de cursos ou estudando por conta própria.
+
+
+            </p>
+            <a href="https://felix-alberto.github.io/curriculo/" target="_blank" class="button__about">Currículo</a>
+          </div>
+          <div class="about__image">
+            <img
+              class="about__perfil"
+              src="assets/img/Felix-sobre.png"
+              alt="Fotografia de Felix"
+            />
+          </div>
+        </div>
+      </section>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <div class="skills__container container grid">
+          <div class="skills__data">
+            <h3 class="section__subtitle">
+              <span>Minhas</span>
+            </h3>
+            <h2 class="section__title">Habilidades</h2>
+            <p class="skills__description">
+              Veja na íntegra o que tenho e realizo, para desenvolver os
+              projetos para você
+            </p>
+            <a href="#projects" class="button">Ver projetos</a>
+          </div>
+          <div class="skills__content">
+            <div class="skills-chats">
+            <div class="" id="myCanvasContainer">
+              <canvas width="500" height="500" id="myCanvas">
+                <ul id="tags">
+                  <li><a href="#" target="_blank">HTML</a></li>
+                        <li><a href="#" target="_blank">CSS</a></li>
+                        <li><a href="#" target="_blank">Javascript</a></li>
+                        <li><a href="#" target="_blank">REST</a></li>
+                        <li><a href="#" target="_blank">API</a></li>
+                        <li><a href="#" target="_blank">Git</a></li>
+                        <li><a href="#" target="_blank">Bootstrap</a></li>
+                        <li><a href="#" target="_blank">Figma</a></li>
+                        <li><a href="#" target="_blank">Asp .net Core</a></li>
+                </ul>
+              </canvas>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h3 class="section__subtitle"> <span>Meus</span></h3>
+        <h2 class="section__title">Projetos recentes</h2>
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <img
+              src="assets/img/project-img-bellaRo.jpg"
+              alt="projects img"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle"> site</span>
+              <h2 class="projects__title">Atelier de doces</h2>
+              <a href="#" target="_blank" class="projects__button"
+                >Visualizar <i class="ri-external-link-line"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/devlinks.jpg"
+              alt="projeto img"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle"> site</span>
+              <h2 class="projects__title">DevLinks</h2>
+              <a href="https://felix-alberto.github.io/projeto/" target="_blank" class="projects__button"
+                >Visualizar <i class="ri-external-link-line"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/project-img-3.png"
+              alt="projects img"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle"> Sistema inspirado </span>
+              <h2 class="projects__title">Na Dell, HP e MacBook </h2>
+              <a href="https://github.com/Felix-Alberto/ControlAtivo/tree/main" target="_blank" class="projects__button"
+                >Visualizar <i class="ri-external-link-line"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/project-img-4.jpg"
+              alt="projects img"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle"> Tela de login</span>
+              <h2 class="projects__title">Realizado em Asp .net core 6 </h2>
+              <a href="https://github.com/Felix-Alberto/LoginAspNet" target="_blank" class="projects__button"
+                >Visualizar
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/project-img-5.jpg"
+              alt="projects img"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle"> Sistema em</span>
+              <h2 class="projects__title">ANDAMENTO</h2>
+              <a href="#" target="_blank" class="projects__button"
+                >Visualizar <i class="ri-external-link-line"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/project-img-6.jpg"
+              alt="projects img"
+              class="projects__img"
+            />
+            <div class="projects__modal">
+              <span class="projects__subtitle"> Sistema em</span>
+              <h2 class="projects__title">ANDAMENTO</h2>
+              <a href="#" target="_blank" class="projects__button"
+                >Visualizar <i class="ri-external-link-line"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h3 class="section__subtitle">Entre em <span>contato</span></h3>
+        <h2 class="section__title">Fale Comigo</h2>
+        <div class="contact__container container grid">
+          <form action="" class="contact__form" id="conatct-form">
+            <div class="contact__group">
+              <input
+                type="text"
+                name="user_name"
+                required
+                placeholder="Nome"
+                name
+                class="contact__input"
+              />
+
+              <input
+                type="text"
+                name="user_email"
+                required
+                placeholder="Email"
+                name
+                class="contact__input"
+              />
+            </div>
+            <textarea
+              name="user_project"
+              required
+              placeholder="Mensagem"
+              class="contact__input"
+            ></textarea>
+            <p class="conatact__message" id="contact-message"></p>
+            <button type="submit" class="button contact__button">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Felix <span>Montero</span></h1>
+          <h2 class="footer__education">
+            Desenvolvedor Front-End & Back-End em Asp .Net Core
+          </h2>
+        </div>
+        <div class="footer__social">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-facebook-circle-line"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a
+            href="https://twtter.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-twitter-line"></i>
+          </a>
+        </div>
+        <span class="footer__copy">
+          &#169; Portfólio desenvolvido por - Felix Montero
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="assets/js/jquery.tagcanvas.js"></script>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
