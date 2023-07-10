@@ -343,6 +343,7 @@ svg{
 .skills__container{
     padding-bottom: 2rem;
     row-gap: 3.5rem;
+    justify-content: center;
 }.skills__data{
     text-align: center;
 }
@@ -355,7 +356,7 @@ svg{
 }
 .skills__content{
     grid-template-columns: repeat(2, max-content);
-    column-gap: 4rem;
+    column-gap: 6rem;
     justify-content:center ;
     align-items: baseline;
 }
